@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="entry entry-default">
+
+    <small class="entry-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d,
+            %Y" }}
+        </time>
+    </small>
+
+    <h2 class="entry-title">{{ page.title }}</h2>
+
+    <div class="entry-content">
+        {{ content }}
+    </div>
+
+</div>

@@ -1,1 +1,1 @@
-# Status
+# InvoicePlane Status Page
