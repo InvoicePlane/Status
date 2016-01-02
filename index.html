@@ -8,7 +8,7 @@ layout: default
         {% for post in site.posts %}
         <li class="entry {{ post.layout }}">
             <span class="entry-meta">
-              <small>{{ post.date | date: "%b %-d, %Y" }}</small>
+              <small>{{ post.date | date: "%Y-%m-%d" }}</small>
               <span class="pull-right">
                 <a class="entry-link" href="{{ post.url | prepend: site.baseurl }}">More info</a>
               </span>
